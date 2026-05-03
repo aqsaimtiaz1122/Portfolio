@@ -7,3 +7,16 @@ contactButton.addEventListener('click', function(event) {
 });
 
 console.log('JavaScript loaded! Day 4 Start! 💙');
+// Dark Mode Toggle
+const themeButton = document.getElementById('themeBtn');
+const body = document.body;
+
+themeButton.addEventListener('click', function() {
+    body.classList.toggle('dark-mode');
+    
+    if (body.classList.contains('dark-mode')) {
+        themeButton.innerHTML = '☀️ Light Mode';
+    } else {
+        themeButton.innerHTML = '🌙 Dark Mode';
+    }
+});
