@@ -18,6 +18,34 @@ body {
     width: 100%;
     max-width: 600px;
 }
+/* Dark Mode Button */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Dark Theme Colors */
+body.dark-mode {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+body.dark-mode .glass-card {
+    background: rgba(0, 0, 0, 0.3);
+}
 
 .card {
     background: rgba(255, 255, 255, 0.05);
