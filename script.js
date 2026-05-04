@@ -20,3 +20,8 @@ themeButton.addEventListener('click', function() {
         themeButton.innerHTML = '🌙 Dark Mode';
     }
 });
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  document.getElementById("form-status").innerText = "Message sent successfully ✅";
+  this.reset();
+});
