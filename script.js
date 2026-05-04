@@ -25,3 +25,14 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
   document.getElementById("form-status").innerText = "Message sent successfully ✅";
   this.reset();
 });
+// Dark Mode Toggle
+const darkModeBtn = document.querySelector('.dark-mode-toggle');
+darkModeBtn.addEventListener('click', function() {
+  document.body.classList.toggle('dark-mode');
+  
+  if(document.body.classList.contains('dark-mode')) {
+    darkModeBtn.innerHTML = '☀️ Light Mode';
+  } else {
+    darkModeBtn.innerHTML = '🌙 Dark Mode';
+  }
+});
