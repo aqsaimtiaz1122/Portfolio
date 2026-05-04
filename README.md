@@ -3,7 +3,7 @@
 **From Classroom to Code | Crafting Modern Web Experiences**
 
 ### 🚀 Live Demo
-**[Click Here to See My Website](https://aqsaimtiaz1122.github.io/day-1-portfolio/)**
+**[Click Here to See My Website](https://aqsaimtiaz1122.github.io/Portfolio/)**
 
 ---
 
