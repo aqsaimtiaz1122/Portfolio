@@ -236,3 +236,22 @@ body:not(.dark-mode) .about-section p {
   color: #00ff88;
   font-weight: 500;
 }
+/* Dark Mode Styles */
+body.dark-mode {
+  background: #0f172a;
+}
+
+body.dark-mode .glass-card {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode #contact-form input,
+body.dark-mode #contact-form textarea {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+body.dark-mode .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
