@@ -183,3 +183,56 @@ body.dark-mode p {
 body:not(.dark-mode) .about-section p {
   color: #333;
 }
+.contact-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.contact-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: white;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  backdrop-filter: blur(5px);
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+  color: #ddd;
+}
+
+#contact-form button {
+  padding: 12px;
+  background: #00c6ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#contact-form button:hover {
+  background: #0072ff;
+}
+
+#form-status {
+  margin-top: 10px;
+  color: #00ff88;
+  font-weight: 500;
+}
